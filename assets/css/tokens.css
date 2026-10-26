@@ -1,0 +1,17 @@
+:root {
+    color-scheme: dark;
+    --color-background: #0b0d0c;
+    --color-surface: #111412;
+    --color-surface-raised: #171b18;
+    --color-text: #f1f2ed;
+    --color-muted: #8e948d;
+    --color-subtle: #555c55;
+    --color-accent: #c4f269;
+    --color-accent-deep: #91bf37;
+    --color-border: rgba(232, 239, 224, 0.11);
+    --font-body: "Manrope", "Microsoft YaHei", sans-serif;
+    --font-mono: "DM Mono", "Microsoft YaHei", monospace;
+    --container-width: 1160px;
+    --page-gutter: clamp(24px, 6vw, 88px);
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
