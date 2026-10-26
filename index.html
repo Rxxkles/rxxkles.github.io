@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #f4f7fa;
+            color: #333;
+        }
+        nav {
+            background: #2c3e50;
+            padding: 18px 0;
+        }
+        .nav-wrap {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #ddd;
+            text-decoration: none;
+            margin-left: 24px;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover {
+            color: #42a5f5;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 60px auto;
+        }
+        .card {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 16px;
+            color: #2c3e50;
+        }
+        .desc {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 26px;
+            background-color: #42a5f5;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .btn:hover {
+            background-color: #1e88e5;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+            font-size: 14px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrap">
+            <div class="logo">我的主页</div>
+            <div class="nav-links">
+                <a href="#about">关于我</a>
+                <a href="#works">作品</a>
+                <a href="#contact">联系</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h1>你好，欢迎来到我的个人网站 👋</h1>
+            <p class="desc">
+                这里是我用 GitHub Pages 搭建的静态主页。<br>
+                你可以在这里介绍自己、展示项目、存放笔记。
+            </p>
+            <a class="btn" href="#about">了解更多</a>
+        </div>
+
+        <div id="about" class="card" style="margin-top:30px">
+            <h2>关于我</h2>
+            <p class="desc">
+                你可以修改这段文字，写上你的介绍、爱好、技能。
+            </p>
+        </div>
+
+        <div id="works" class="card" style="margin-top:30px">
+            <h2>我的作品</h2>
+            <p class="desc">
+                在这里放你的项目链接、截图、demo。
+            </p>
+        </div>
+
+        <div id="contact" class="card" style="margin-top:30px">
+            <h2>联系方式</h2>
+            <p class="desc">
+                邮箱：xxx@shturl.<br>
+                GitHub：<a href="https://github.com/你的用户名" target="_blank">@你的用户名</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 我的个人主页 | Powered by GitHub Pages
+    </footer>
+</body>
+</html>
